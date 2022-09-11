@@ -33,5 +33,6 @@ Assist the project in a number of ways:
 - Star the repository.
 - Follow me on GitHub.
 - Please share on the sites like Hacker News, Twitter, Reddit, etc.
-- Report for any bugs, glitches, or errors. <br />
+- Report for any bugs, glitches, or errors.<br />
+
 Thank you!
