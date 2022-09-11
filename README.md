@@ -26,7 +26,7 @@ These straightforward parts are connected together & create a fundamental datapa
 The schematic for the entire single cycle datapath, with pipeline registers placed in-between the phases, is shown below :<br/>
 ![Pipelined-version-of-the-MIPS-datapath](https://user-images.githubusercontent.com/66734379/189549236-6077a273-8347-4b39-86fb-42450b547222.png)<br/>
 > Collected Diagram
-# Extras
+# Extra
 Some extra simple `ALU` projects have been added with the main project as bonus.
 # Support
 Assist the project in a number of ways:
