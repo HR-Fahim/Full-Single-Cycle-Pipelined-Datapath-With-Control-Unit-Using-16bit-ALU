@@ -1,0 +1,1 @@
+// R-type & J-type Data path is also included in that'Single Cycle Datapath' circ. file.
