@@ -1,6 +1,7 @@
 # About
-In a Single Cycle Datapath, each of the Datapath's components executes an instruction once. Therefore, no Datapath component may be utilized more than once each cycle. The fetch-decode-execute sequence, in this case, was created using components of a Single-Cycle Datapath to generate a Multi-Cycle (pipelined) Datapath. Each functional unit (such as a register file, data memory, or ALU) in a multicycle, and particularly in the pipelined Datapath, can be used more than once during the execution of an instruction, saving hardware (and, thus, reducing cost).
-> It was a part of project from CSE332 course offered by CSE, NSU (North South University).
+In a Single Cycle Datapath, each of the Datapath's components executes an instruction once. Therefore, no Datapath component may be utilized more than once each cycle. The fetch-decode-execute sequence, in this case, was created using components of a Single-Cycle Datapath to generate a Multi-Cycle (pipelined) Datapath. Each functional unit (such as a register file, data memory, or ALU) in a multicycle, and particularly in the pipelined Datapath, can be used more than once during the execution of an instruction, saving hardware (and, thus, reducing cost).<br/>
+
+<sub> ****P.S.*** It was a part of project from CSE332 course offered by CSE, NSU (North South University).*<sub/>
 # Project Details
 16-bit ALU has been used to build a full Single-Cycle Pipelined Datapath with a Control Unit. A full Single-Cycle Pipelined Datapath is distributed in different parts including <br/>
 - `Memory`; among the components of a very basic part is `Memory`, which holds the current instruction.
