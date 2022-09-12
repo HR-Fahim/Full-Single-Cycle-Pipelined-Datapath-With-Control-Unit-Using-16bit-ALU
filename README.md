@@ -30,10 +30,10 @@ The schematic for the entire Single-Cycle Datapath, with pipeline registers plac
 > Collected Diagram
 # Extra
 Some extra simple `ALU` projects have been added with the main project as a bonus.
-# Support
+# Support [<sup> @github/support <sup/>](https://support.github.com/)
 Assist the project in a number of ways:
 - Star the repository.
-- Follow me on GitHub.
+- Follow me on [GitHub](https://github.com/HR-Fahim).
 - Please share on the sites like Hacker News, Twitter, Reddit, etc.
 - Report for any bugs, glitches, or errors.<br />
 
