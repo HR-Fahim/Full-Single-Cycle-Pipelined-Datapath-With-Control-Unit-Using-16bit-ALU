@@ -1,9 +1,8 @@
 # About
 
-This repository contains the implementation of a Single Cycle Datapath, where each component of the datapath executes an instruction once per cycle. The fetch-decode-execute sequence is generated using components of the Single-Cycle Datapath to create a Multi-Cycle (pipelined) Datapath. In the pipelined Datapath, functional units such as the register file, data memory, and ALU can be utilized multiple times during the execution of an instruction, resulting in reduced hardware and cost.
+This repository contains the implementation of a Single Cycle Datapath, where each component of the datapath executes an instruction once per cycle. The fetch-decode-execute sequence is generated using components of the Single-Cycle Datapath to create a Multi-Cycle (pipelined) Datapath. In the pipelined Datapath, functional units such as the register file, data memory, and ALU can be utilized multiple times during the execution of an instruction, resulting in reduced hardware and cost.<br/>
 
-**Note:**
-This project was developed as part of the CSE332 course offered by CSE, NSU (North South University).
+<sub> ****P.S.*** The project was completed under CSE332 (Computer Organization and Architecture) course offered by North South University.*<sub/>
 
 # Project Details
 
