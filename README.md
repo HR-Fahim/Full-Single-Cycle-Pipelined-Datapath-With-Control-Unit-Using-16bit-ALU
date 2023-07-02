@@ -1,42 +1,65 @@
 # About
-In a Single Cycle Datapath, each of the Datapath's components executes an instruction once. Therefore, no Datapath component may be utilized more than once each cycle. The fetch-decode-execute sequence, in this case, was created using components of a Single-Cycle Datapath to generate a Multi-Cycle (pipelined) Datapath. Each functional unit (such as a register file, data memory, or ALU) in a multicycle, and particularly in the pipelined Datapath, can be used more than once during the execution of an instruction, saving hardware (and, thus, reducing cost).<br/>
 
-<sub> ****P.S.*** It was a part of project from CSE332 course offered by CSE, NSU (North South University).*<sub/>
+This repository contains the implementation of a Single Cycle Datapath, where each component of the datapath executes an instruction once per cycle. The fetch-decode-execute sequence is generated using components of the Single-Cycle Datapath to create a Multi-Cycle (pipelined) Datapath. In the pipelined Datapath, functional units such as the register file, data memory, and ALU can be utilized multiple times during the execution of an instruction, resulting in reduced hardware and cost.
+
+**Note:**
+This project was developed as part of the CSE332 course offered by CSE, NSU (North South University).
+
 # Project Details
-16-bit ALU has been used to build a full Single-Cycle Pipelined Datapath with a Control Unit. A full Single-Cycle Pipelined Datapath is distributed in different parts including <br/>
-- `Memory`; among the components of a very basic part is `Memory`, which holds the current instruction.
-- `ALU` that processes current instructions and `Program Counter` or `PC` that maintains the address of the current instruction.<br/>
-These straightforward parts are connected together & create a fundamental Datapath.
+
+The project implements a full Single-Cycle Pipelined Datapath with a Control Unit using a 16-bit ALU. The Single-Cycle Pipelined Datapath is divided into various components, including:
+
+- **Memory:** This component holds the current instruction.
+- **ALU:** It processes the current instructions.
+- **Program Counter (PC):** It maintains the address of the current instruction.
+
+These components are interconnected to create the basic Datapath.
+
 # Experiment Details
-16-bit ISA with the fields listed below (Here, instruction is presented in the following formats):<br/>
-- **_R-type_**<br/>
 
-| op (4 bit)  | rs (4 bit)  | rt (4 bit)  | rd (4 bit)  |
-| ----------- | ----------- | ----------- | ----------- |
-- **_I-type_**<br/>
+The project utilizes a 16-bit ISA with the following instruction formats:
 
-| op (4 bit)  | rs (4 bit)  | rt (4 bit)  | immediate (4 bit)  |
-| ----------- | ----------- | ----------- | ------------------ |
-- **_J-type_**<br/>
+- **R-type:**
 
-| op (4 bit)  | Target (12 bit)  | 
-| ----------- | ---------------- | 
+| op (4 bit) | rs (4 bit) | rt (4 bit) | rd (4 bit) |
+| ---------- | ---------- | ---------- | ---------- |
+
+- **I-type:**
+
+| op (4 bit) | rs (4 bit) | rt (4 bit) | immediate (4 bit) |
+| ---------- | ---------- | ---------- | ----------------- |
+
+- **J-type:**
+
+| op (4 bit) | Target (12 bit) |
 
 # Requirements
+
 - Logisim Tool
+
 # Pipelined Datapath Diagram
-The schematic for the entire Single-Cycle Datapath, with pipeline registers placed in-between the phases, is shown below:<br/>
-![Pipelined-version-of-the-MIPS-datapath](https://user-images.githubusercontent.com/66734379/189549236-6077a273-8347-4b39-86fb-42450b547222.png)<br/>
-> Collected Diagram
+
+The diagram below illustrates the schematic for the entire Single-Cycle Datapath with pipeline registers placed between the phases:
+
+![Pipelined-version-of-the-MIPS-datapath](https://user-images.githubusercontent.com/66734379/189549236-6077a273-8347-4b39-86fb-42450b547222.png)
+
+> **Note:** This diagram represents the collected version.
+
 # License
-The code in this repository is provided under the [GNU License](LICENSE). Please refer to the license file for more details and to understand the limitations and responsibilities.<br />
+
+The code in this repository is provided under the [GNU License](LICENSE). Please refer to the license file for more details, limitations, and responsibilities.
+
 # Extra
-Some extra simple `ALU` projects have been added with the main project as a bonus.
-# Support[<sup> @github/support <sup/>](https://support.github.com/)
-Assist the project in a number of ways:
+
+As a bonus, some additional simple `ALU` projects have been included in this repository along with the main project.
+
+# Support
+
+Support this project in the following ways:
+
 - Star the repository.
 - Follow me on [GitHub](https://github.com/HR-Fahim).
-- Please share on the sites like Hacker News, Twitter, Reddit, etc.
-- Report for any bugs, glitches, or errors.<br />
+- Share this project on sites like Hacker News, Twitter, Reddit, etc.
+- Report any bugs, glitches, or errors.
 
-Thank you!
+Thank you for your support!
